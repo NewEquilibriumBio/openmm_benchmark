@@ -1,0 +1,112 @@
+hostname: gpu1
+timestamp: 2023-07-19T16:58:03.190705
+openmm_version: 8.0.0.dev-a780005
+cpuinfo: AMD EPYC 7763 64-Core Processor
+cpuarch: x86_64
+system: Linux
+test: gbsa
+constraints: HBonds
+hydrogen_mass: 1.5
+cutoff: 2.0
+ensemble: NVT
+precision: single
+timestep_in_fs: 4.0
+platform: HIP
+platform_properties: {'DeviceIndex': '0', 'DeviceName': 'AMD Instinct MI210', 'UseBlockingSync': 'true', 'Precision': 'single', 'UseCpuPme': 'false', 'HipCompiler': '/opt/rocm/bin/hipcc', 'HipAllowRuntimeCompiler': 'false', 'TempDirectory': '/tmp', 'HipHostCompiler': '', 'DisablePmeStream': 'false', 'DeterministicForces': 'false'}
+steps: 160505
+elapsed_time: 63.227544
+ns_per_day: 877.3158736009103
+
+test: rf
+constraints: HBonds
+hydrogen_mass: 1.5
+cutoff: 1.0
+ensemble: NVT
+precision: single
+timestep_in_fs: 4.0
+platform: HIP
+platform_properties: {'DeviceIndex': '0', 'DeviceName': 'AMD Instinct MI210', 'UseBlockingSync': 'true', 'Precision': 'single', 'UseCpuPme': 'false', 'HipCompiler': '/opt/rocm/bin/hipcc', 'HipAllowRuntimeCompiler': 'false', 'TempDirectory': '/tmp', 'HipHostCompiler': '', 'DisablePmeStream': 'false', 'DeterministicForces': 'false'}
+steps: 133503
+elapsed_time: 60.481502
+ns_per_day: 762.8553404642629
+
+test: pme
+constraints: HBonds
+hydrogen_mass: 1.5
+cutoff: 0.9
+ensemble: NVT
+precision: single
+timestep_in_fs: 4.0
+platform: HIP
+platform_properties: {'DeviceIndex': '0', 'DeviceName': 'AMD Instinct MI210', 'UseBlockingSync': 'true', 'Precision': 'single', 'UseCpuPme': 'false', 'HipCompiler': '/opt/rocm/bin/hipcc', 'HipAllowRuntimeCompiler': 'false', 'TempDirectory': '/tmp', 'HipHostCompiler': '', 'DisablePmeStream': 'false', 'DeterministicForces': 'false'}
+steps: 81740
+elapsed_time: 60.176906
+ns_per_day: 469.438292490478
+
+test: apoa1rf
+constraints: HBonds
+hydrogen_mass: 1.5
+cutoff: 1.0
+ensemble: NVT
+precision: single
+timestep_in_fs: 4.0
+platform: HIP
+platform_properties: {'DeviceIndex': '0', 'DeviceName': 'AMD Instinct MI210', 'UseBlockingSync': 'true', 'Precision': 'single', 'UseCpuPme': 'false', 'HipCompiler': '/opt/rocm/bin/hipcc', 'HipAllowRuntimeCompiler': 'false', 'TempDirectory': '/tmp', 'HipHostCompiler': '', 'DisablePmeStream': 'false', 'DeterministicForces': 'false'}
+steps: 60263
+elapsed_time: 61.578667
+ns_per_day: 338.21603835627025
+
+test: apoa1pme
+constraints: HBonds
+hydrogen_mass: 1.5
+cutoff: 0.9
+ensemble: NVT
+precision: single
+timestep_in_fs: 4.0
+platform: HIP
+platform_properties: {'DeviceIndex': '0', 'DeviceName': 'AMD Instinct MI210', 'UseBlockingSync': 'true', 'Precision': 'single', 'UseCpuPme': 'false', 'HipCompiler': '/opt/rocm/bin/hipcc', 'HipAllowRuntimeCompiler': 'false', 'TempDirectory': '/tmp', 'HipHostCompiler': '', 'DisablePmeStream': 'false', 'DeterministicForces': 'false'}
+steps: 44498
+elapsed_time: 65.172646
+ns_per_day: 235.96569640582027
+
+test: apoa1ljpme
+constraints: HBonds
+hydrogen_mass: 1.5
+cutoff: 0.9
+ensemble: NVT
+precision: single
+timestep_in_fs: 4.0
+platform: HIP
+platform_properties: {'DeviceIndex': '0', 'DeviceName': 'AMD Instinct MI210', 'UseBlockingSync': 'true', 'Precision': 'single', 'UseCpuPme': 'false', 'HipCompiler': '/opt/rocm/bin/hipcc', 'HipAllowRuntimeCompiler': 'false', 'TempDirectory': '/tmp', 'HipHostCompiler': '', 'DisablePmeStream': 'false', 'DeterministicForces': 'false'}
+steps: 28887
+elapsed_time: 57.123653
+ns_per_day: 174.7673104869536
+
+test: amoebagk
+epsilon: 1e-05
+constraints: None
+hydrogen_mass: 1
+ensemble: NVT
+precision: single
+timestep_in_fs: 2.0
+platform: HIP
+platform_properties: {'DeviceIndex': '0', 'DeviceName': 'AMD Instinct MI210', 'UseBlockingSync': 'true', 'Precision': 'single', 'UseCpuPme': 'false', 'HipCompiler': '/opt/rocm/bin/hipcc', 'HipAllowRuntimeCompiler': 'false', 'TempDirectory': '/tmp', 'HipHostCompiler': '', 'DisablePmeStream': 'false', 'DeterministicForces': 'false'}
+steps: 5503
+elapsed_time: 62.284365
+ns_per_day: 15.267369266749366
+
+test: amoebapme
+epsilon: 1e-05
+constraints: None
+hydrogen_mass: 1
+ensemble: NVT
+precision: single
+timestep_in_fs: 2.0
+platform: HIP
+platform_properties: {'DeviceIndex': '0', 'DeviceName': 'AMD Instinct MI210', 'UseBlockingSync': 'true', 'Precision': 'single', 'UseCpuPme': 'false', 'HipCompiler': '/opt/rocm/bin/hipcc', 'HipAllowRuntimeCompiler': 'false', 'TempDirectory': '/tmp', 'HipHostCompiler': '', 'DisablePmeStream': 'false', 'DeterministicForces': 'false'}
+steps: 2961
+elapsed_time: 53.336217
+ns_per_day: 9.593121311922065
+
+Downloading https://ambermd.org/Amber20_Benchmark_Suite.tar.gz
+Extracting Amber20_Benchmark_Suite.tar.gz

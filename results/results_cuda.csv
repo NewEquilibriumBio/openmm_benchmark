@@ -1,0 +1,20 @@
+topology,water model,precision,ns/day
+small.pdb,tip3p,single,723.49
+small.pdb,tip3p,mixed,627.73
+small.pdb,tip3p,double,53.77
+small.pdb,tip4pew,single,734.39
+small.pdb,tip4pew,mixed,629.63
+small.pdb,tip4pew,double,42.33
+medium.pdb,tip3p,single,314.51
+medium.pdb,tip3p,mixed,261.80
+medium.pdb,tip3p,double,9.12
+medium.pdb,tip4pew,single,229.58
+medium.pdb,tip4pew,mixed,195.73
+medium.pdb,tip4pew,double,5.51
+large.pdb,tip3p,single,30.09
+large.pdb,tip3p,mixed,25.84
+large.pdb,tip3p,double,1.15
+large.pdb,tip4pew,single,20.14
+large.pdb,tip4pew,mixed,18.70
+large.pdb,tip4pew,double,0.69
+OpenMM-PLUMED: Success

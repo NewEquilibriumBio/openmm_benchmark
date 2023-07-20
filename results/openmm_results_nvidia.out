@@ -1,0 +1,111 @@
+hostname: gpu3
+timestamp: 2023-07-19T16:53:17.594969
+openmm_version: 8.0.0.dev-a780005
+cpuinfo: AMD EPYC 7763 64-Core Processor
+cpuarch: x86_64
+system: Linux
+nvidia_driver: 515.65.01
+gpu: NVIDIA A40
+test: gbsa
+constraints: HBonds
+hydrogen_mass: 1.5
+cutoff: 2.0
+ensemble: NVT
+precision: single
+timestep_in_fs: 4.0
+platform: CUDA
+platform_properties: {'DeviceIndex': '0', 'DeviceName': 'NVIDIA A40', 'UseBlockingSync': 'false', 'Precision': 'single', 'UseCpuPme': 'false', 'CudaCompiler': '/usr/local/cuda/bin/nvcc', 'TempDirectory': '/tmp', 'CudaHostCompiler': '', 'DisablePmeStream': 'false', 'DeterministicForces': 'false'}
+steps: 414532
+elapsed_time: 59.947833
+ns_per_day: 2389.782116060808
+
+test: rf
+constraints: HBonds
+hydrogen_mass: 1.5
+cutoff: 1.0
+ensemble: NVT
+precision: single
+timestep_in_fs: 4.0
+platform: CUDA
+platform_properties: {'DeviceIndex': '0', 'DeviceName': 'NVIDIA A40', 'UseBlockingSync': 'false', 'Precision': 'single', 'UseCpuPme': 'false', 'CudaCompiler': '/usr/local/cuda/bin/nvcc', 'TempDirectory': '/tmp', 'CudaHostCompiler': '', 'DisablePmeStream': 'false', 'DeterministicForces': 'false'}
+steps: 285613
+elapsed_time: 60.084752
+ns_per_day: 1642.810355612352
+
+test: pme
+constraints: HBonds
+hydrogen_mass: 1.5
+cutoff: 0.9
+ensemble: NVT
+precision: single
+timestep_in_fs: 4.0
+platform: CUDA
+platform_properties: {'DeviceIndex': '0', 'DeviceName': 'NVIDIA A40', 'UseBlockingSync': 'false', 'Precision': 'single', 'UseCpuPme': 'false', 'CudaCompiler': '/usr/local/cuda/bin/nvcc', 'TempDirectory': '/tmp', 'CudaHostCompiler': '', 'DisablePmeStream': 'false', 'DeterministicForces': 'false'}
+steps: 244118
+elapsed_time: 59.985896
+ns_per_day: 1406.4502895814041
+
+test: apoa1rf
+constraints: HBonds
+hydrogen_mass: 1.5
+cutoff: 1.0
+ensemble: NVT
+precision: single
+timestep_in_fs: 4.0
+platform: CUDA
+platform_properties: {'DeviceIndex': '0', 'DeviceName': 'NVIDIA A40', 'UseBlockingSync': 'false', 'Precision': 'single', 'UseCpuPme': 'false', 'CudaCompiler': '/usr/local/cuda/bin/nvcc', 'TempDirectory': '/tmp', 'CudaHostCompiler': '', 'DisablePmeStream': 'false', 'DeterministicForces': 'false'}
+steps: 103274
+elapsed_time: 61.129814
+ns_per_day: 583.8639456681481
+
+test: apoa1pme
+constraints: HBonds
+hydrogen_mass: 1.5
+cutoff: 0.9
+ensemble: NVT
+precision: single
+timestep_in_fs: 4.0
+platform: CUDA
+platform_properties: {'DeviceIndex': '0', 'DeviceName': 'NVIDIA A40', 'UseBlockingSync': 'false', 'Precision': 'single', 'UseCpuPme': 'false', 'CudaCompiler': '/usr/local/cuda/bin/nvcc', 'TempDirectory': '/tmp', 'CudaHostCompiler': '', 'DisablePmeStream': 'false', 'DeterministicForces': 'false'}
+steps: 66578
+elapsed_time: 60.897864
+ns_per_day: 377.8352028898747
+
+test: apoa1ljpme
+constraints: HBonds
+hydrogen_mass: 1.5
+cutoff: 0.9
+ensemble: NVT
+precision: single
+timestep_in_fs: 4.0
+platform: CUDA
+platform_properties: {'DeviceIndex': '0', 'DeviceName': 'NVIDIA A40', 'UseBlockingSync': 'false', 'Precision': 'single', 'UseCpuPme': 'false', 'CudaCompiler': '/usr/local/cuda/bin/nvcc', 'TempDirectory': '/tmp', 'CudaHostCompiler': '', 'DisablePmeStream': 'false', 'DeterministicForces': 'false'}
+steps: 54330
+elapsed_time: 61.381959
+ns_per_day: 305.8952224056583
+
+test: amoebagk
+epsilon: 1e-05
+constraints: None
+hydrogen_mass: 1
+ensemble: NVT
+precision: single
+timestep_in_fs: 2.0
+platform: CUDA
+platform_properties: {'DeviceIndex': '0', 'DeviceName': 'NVIDIA A40', 'UseBlockingSync': 'false', 'Precision': 'single', 'UseCpuPme': 'false', 'CudaCompiler': '/usr/local/cuda/bin/nvcc', 'TempDirectory': '/tmp', 'CudaHostCompiler': '', 'DisablePmeStream': 'false', 'DeterministicForces': 'false'}
+steps: 12242
+elapsed_time: 59.500661
+ns_per_day: 35.552842009603886
+
+test: amoebapme
+epsilon: 1e-05
+constraints: None
+hydrogen_mass: 1
+ensemble: NVT
+precision: single
+timestep_in_fs: 2.0
+platform: CUDA
+platform_properties: {'DeviceIndex': '0', 'DeviceName': 'NVIDIA A40', 'UseBlockingSync': 'false', 'Precision': 'single', 'UseCpuPme': 'false', 'CudaCompiler': '/usr/local/cuda/bin/nvcc', 'TempDirectory': '/tmp', 'CudaHostCompiler': '', 'DisablePmeStream': 'false', 'DeterministicForces': 'false'}
+steps: 8599
+elapsed_time: 59.667013
+ns_per_day: 24.903328075095693

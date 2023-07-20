@@ -1,0 +1,7 @@
+channels:
+  - conda-forge
+dependencies:
+  - openmm
+  - openmm-plumed
+  - typed-argument-parser
+  - cudatoolkit=11.7

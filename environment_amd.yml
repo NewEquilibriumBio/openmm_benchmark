@@ -1,0 +1,7 @@
+channels:
+  - conda-forge
+dependencies:
+  - streamhpc::openmm-hip
+  - openmm-plumed
+  - typed-argument-parser
+  - cudatoolkit=11.7
